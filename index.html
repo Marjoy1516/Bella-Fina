@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella & Fina</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/logoEsmalte.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header__menuHamburguer">
+            <img class="header__menuHamburguer__icon" src="./icons/menu-hamburguer.svg" alt="Logo menu hamburguer" onclick="toggleMenu()">
+        </div>
+        <div class="header__menuHamburguer-opened"  id="menu">
+            <nav class="header__menuHamburguer-opened__nav">
+                <ul class="header__menuHamburguer-opened__nav__lista">
+                    <li class="header__menuHamburguer-opened__nav__lista__item">
+                        <a href="#" class="header__menuHamburguer-opened__nav__lista__item__link">Catálogo</a>
+                    </li>
+                    <li class="header__menuHamburguer-opened__nav__lista__item">
+                        <a href="#" class="header__menuHamburguer-opened__nav__lista__item__link">Seja um revendedor</a>
+                    </li>
+                    <li class="header__menuHamburguer-opened__nav__lista__item">
+                        <a href="#" class="header__menuHamburguer-opened__nav__lista__item__link">Quem somos?</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__logoBellaEFina">
+            <img class="header__logoBellaEFina__logo" src="./img/logoBelaEFina.png" alt="Logo Bella & Fina">
+        </div>
+        <div class="header__menu">
+            <a href="#" class="header__menu__link">Catálogo</a>
+            <a href="#" class="header__menu__link">Seja um revendedor</a>
+            <a href="#" class="header__menu__link">Quem somos?</a>
+        </div>
+        <div class="header__carrinho">
+            <img class="header__carrinho__icon" src="./icons/carrinho.svg" alt="Logo carrinho">
+        </div>
+    </header>
+    <section class="categoria">
+        <h2 class="categoria__tipo">EM DESTAQUE</h2>
+    </section>
+
+    <section class="carrossel-section">
+        <div class="carrossel">
+            <div class="card">
+                <img src="/img/risqueVermelhoFelicidade.png" alt="Esmalte Risque Vermelho Felicidade">
+                <div class="card-info">
+                    <h3>Esmalte Risque vermelho felicidade</h3>
+                    <p>R$10,00</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/risquePoDeArroz.png" alt="Esmalte Risque Pó de Arroz">
+                <div class="card-info">
+                    <h3>Esmalte Risque Pó de Arroz</h3>
+                    <p>R$8,50</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/doveOriginal.png" alt="Desodorante Dove Original">
+                <div class="card-info">
+                    <h3>Desodorante Dove Original</h3>
+                    <p>R$13,80</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/baseMakeUpForever.png" alt="Base MakeUP Forever">
+                <div class="card-info">
+                    <h3>Base MakeUP Forever</h3>
+                    <p>R$52,00</p>
+                    <a href="#" class="card__info__link"><img src="./icons/carrinho.svg" alt="Adicionar ao carrinho"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2 class="categoria__tipo">TOP REVENDEDORAS</h2>
+    </section>
+
+    <section class="revendedoras">
+        <div class="revendedoras__container">
+            <div class="revendedoras__container__card">
+                <div class="revendedoras__container__card__conteudo">
+                    <img src="./img/mariaCarla.png" alt="Foto de Maria Carla">
+                    <div class="card__texto">
+                        <h3 class="card__texto__nome">Maria Carla</h3>
+                        <a href="#" class="card__texto__link"><p class="card__texto__link__texto">Contato</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="revendedoras__container__card">
+                <div class="revendedoras__container__card__conteudo">
+                    <img src="./img/rayssaVanessa.png" alt="Foto de Rayssa Vanessa">
+                    <div class="card__texto">
+                        <h3 class="card__texto__nome">Rayssa Vanessa</h3>
+                        <a href="#" class="card__texto__link"><p class="card__texto__link__texto">Contato</p></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h2 class="formaspag">Formas de pagamento</h2>
+        <div class="formaspag-linha1">
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/boleto.png">
+                <p>Boleto</p>
+            </div>
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/cartao.png">
+                <p>Cartão</p>
+            </div>
+        </div>    
+        <div class="formaspag-linha2">
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/pix.png">
+                <p>Pix</p>
+            </div>          
+        </div>
+        <div class="formaspag-unicalinha-referencia">
+        <div class="formaspag-unicalinha">
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/boleto.png">
+                <p>Boleto</p>
+            </div>
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/cartao.png">
+                <p>Cartão</p>
+            </div>
+            <div class="formas__pag__pag">
+                <img class="formas__pag__img" src="./img/pix.png">
+                <p>Pix</p>
+            </div>        
+        </div>
+        <hr>
+        <div class="referencia">
+            <img class="referencia__img" src="./img/logoBelaEFina.png">
+            <h3 class="referencia__texto">Desenvolvido por </br>Márcio Freitas</h3>
+            
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+
+
+
+</html>
