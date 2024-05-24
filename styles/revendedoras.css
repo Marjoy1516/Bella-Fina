@@ -35,6 +35,16 @@
     width: 50%;
 }
 
+div.card__texto p{
+    transition: .4s;
+}
+
+div.card__texto p:hover{
+    transition: .6s;
+    margin: 10px;
+    background-color: #d7a9a9;
+}
+
 .card__texto__nome {
     font-family: var(--fonte-um);
     font-size: 2rem;

@@ -48,7 +48,15 @@
 .card-info img {
     width: 50px;
     margin-left: 44%;
+    transition: .4s;
 }
+
+
+.card-info img:hover{
+    transition: .4s;
+    width: 60px;
+}
+
 
 @media screen and (min-width: 600px) {
     .card {
